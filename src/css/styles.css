@@ -1,12 +1,22 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
 @import url('./reset.css');
-@import url('./vite-promo.css');
+/* NADYA */
 @import url('./header.css');
+/* VADIM */
+@import url('./hero.css');
+/* VADIM */
+@import url('./about-us.css');
+/* YANA */
+@import url('./price.css');
+/* ? */
+@import url('./our-products.css');
+/* ? */
+@import url('./bestsellers.css');
+/* ? */
+@import url('./clients-reviews.css');
+/* NADYA */
+@import url('./subscription.css');
+/* YANA */
+@import url('./footer.css');
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
