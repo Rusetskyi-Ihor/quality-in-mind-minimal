@@ -8,12 +8,12 @@
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../img/hero-images/mobile-bcg.jpg);
+  background-image: url(./img/hero-images/mobile-bcg.jpg);
 }
 
 @media screen and (min-resolution: 192dpi) {
   .hero {
-    background-image: url(../img/hero-images/mobile-bcg@2x.jpg);
+    background-image: url(./img/hero-images/mobile-bcg@2x.jpg);
   }
 }
 
@@ -65,8 +65,8 @@
 
   .hero {
     height: 858px;
-    background-image: url(../img/hero-images/tablet-bcg-1.jpg),
-      url(../img/hero-images/tablet-bcg-2.jpg);
+    background-image: url(./img/hero-images/tablet-bcg-1.jpg),
+      url(./img/hero-images/tablet-bcg-2.jpg);
     background-size: 308px, 367px;
     background-position: 32px 263px, calc(100% - 32px) 57px;
     gap: 410px;
@@ -74,8 +74,8 @@
 
   @media (min-resolution: 192dpi) {
     .hero {
-      background-image: url(../img/hero-images/tablet-bcg-1@2x.jpg),
-        url(../img/hero-images/tablet-bcg-2@2x.jpg);
+      background-image: url(./img/hero-images/tablet-bcg-1@2x.jpg),
+        url(./img/hero-images/tablet-bcg-2@2x.jpg);
     }
   }
 
@@ -116,9 +116,9 @@
 
   .hero {
     height: 694px;
-    background-image: url(../img/hero-images/desctop-bcg-1.jpg),
-      url(../img/hero-images/desctop-bcg-2.jpg),
-      url(../img/hero-images/desctop-bcg-3.jpg);
+    background-image: url(./img/hero-images/desctop-bcg-1.jpg),
+      url(./img/hero-images/desctop-bcg-2.jpg),
+      url(./img/hero-images/desctop-bcg-3.jpg);
     background-size: 310px, 648px, 312px;
     background-position: 60px 265px, 395px 64px, calc(100% - 60px) 64px;
     gap: 360px;
@@ -137,9 +137,9 @@
 
   @media (min-resolution: 192dpi) {
     .hero {
-      background-image: url(../img/hero-images/desctop-bcg-1@2x.png),
-        url(../img/hero-images/desctop-bcg-2@2x.png),
-        url(../img/hero-images/desctop-bcg-3@2x.png);
+      background-image: url(./img/hero-images/desctop-bcg-1@2x.jpg),
+        url(./img/hero-images/desctop-bcg-2@2x.jpg),
+        url(./img/hero-images/desctop-bcg-3@2x.jpg);
     }
   }
 }
