@@ -29,24 +29,21 @@
 .container {
   min-width: 288px;
   margin: 0 auto;
-  padding: 0 16px 0 16px;
+  padding: 0 16px;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  border: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0000);
-  overflow: hidden;
-  margin: -1px;
-  padding: 0;
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+    margin: 0 auto;
+  }
 }
 
-body {
-  color: var(--color-blue-font);
-  font-family: Roboto, sans-serif;
-  background-color: var(--color-white);
+@media screen and (min-width: 1111px) {
+  .container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 60px;
+  }
 }
