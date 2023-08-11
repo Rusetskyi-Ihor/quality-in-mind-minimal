@@ -63,7 +63,77 @@
       
       
       <!-- NADYA -->
-      
+      <section class="subscribe">
+  <h2>Newsletter</h2>
+  <p>Every week we will send you new designs and information about sales.</p>
+  <form>
+    <label for="user-name" class="subscribe-input-label">
+      <input
+        class="subscribe-input"
+        type="text"
+        placeholder="Name"
+        name="user-name"
+        id="user-name"
+        required
+      />
+    </label>
+    <label for="user-email" class="subscribe-input-label subscribe-error">
+      <input
+        class="subscribe-input"
+        type="email"
+        name="user-email"
+        id="user-email"
+        placeholder="E-mail"
+        required
+      />
+    </label>
+    <input
+      class="subscribe-checkbox visually-hidden"
+      type="checkbox"
+      name="agree-to-subscribe"
+      id="agree-to-subscribe"
+      value="true"
+    />
+    <label for="agree-to-subscribe" class="check-text">
+      <span class="checkbox-check">
+        <svg class="subscribe-checkbox-icon" width="13" height="13">
+          <use href=""></use>
+        </svg>
+      </span>
+      >Agree to subscribe to the newsletter
+    </label>
+    <button type="submit" class="subsribe-btn">Send</button>
+  </form>
+  <picture>
+    <source
+      srcset="
+        ../img/subscription-images/subs-desctop.jpg    1x,
+        ../img/subscription-images/subs-desctop@2x.jpg 2x
+      "
+      media="(min-width: 1440px)"
+    />
+    <source
+      srcset="
+        ../img/subscription-images/subs-tablet.jpg    1x,
+        ../img/subscription-images/subs-tablet@2x.jpg 2x
+      "
+      media="(min-width: 768px)"
+    />
+    <source
+      srcset="
+        ../img/subscription-images/subs-mobile.jpg    1x,
+        ../img/subscription-images/subs-mobile@2x.jpg 2x
+      "
+      media="(min-width: 320px)"
+    />
+    <img
+      src=" ../img/subscription-images/subs-tablet@2x.jpg"
+      alt="Little table near the sofa"
+      width="1408"
+    />
+  </picture>
+</section>
+
     </main>
     <footer>
       <!-- YANA -->
