@@ -1,11 +1,13 @@
+@import url('./base.css');
 @import url('./reset.css');
+@import url('./components');
 /* NADYA */
 @import url('./header.css');
 /* VADIM */
 @import url('./hero.css');
 /* VADIM */
 @import url('./about-us.css');
-/* YANA */
+/* IHOR */
 @import url('./price.css');
 /* ? */
 @import url('./our-products.css');
@@ -17,36 +19,3 @@
 @import url('./subscription.css');
 /* YANA */
 @import url('./footer.css');
-
-:root {
-  --color-light-blue: #f7faff;
-  --color-blue-font: #0a224a;
-  --color-white: #fff;
-  --color-grey: #d9d9d9;
-  --color-dark-grey: #b6b6b6;
-}
-
-.container {
-  min-width: 288px;
-  margin: 0 auto;
-  padding: 0 16px 0 16px;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  border: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0000);
-  overflow: hidden;
-  margin: -1px;
-  padding: 0;
-}
-
-body {
-  color: var(--color-blue-font);
-  font-family: Roboto, sans-serif;
-  background-color: var(--color-white);
-}
