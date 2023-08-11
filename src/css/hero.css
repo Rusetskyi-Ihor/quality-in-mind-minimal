@@ -60,7 +60,6 @@
   .hero.container {
     padding: 0 32px;
     max-width: 768px;
-    /* border: 1px solid red; */
   }
 
   .hero {
@@ -68,9 +67,7 @@
     background-image: url(../img/hero-images/tablet-bcg-1.jpg),
       url(../img/hero-images/tablet-bcg-2.jpg);
     background-size: 308px, 367px;
-    background-position:
-      32px 263px,
-      calc(100% - 32px) 57px;
+    background-position: 32px 263px, calc(100% - 32px) 57px;
     gap: 410px;
   }
 
@@ -112,7 +109,7 @@
 
 @media screen and (min-width: 1440px) {
   .hero.container {
-    padding: 0 60px;
+    padding: 64px 60px 100px 60px;
     max-width: 1440px;
   }
 
@@ -122,18 +119,18 @@
       url(../img/hero-images/desctop-bcg-2.jpg),
       url(../img/hero-images/desctop-bcg-3.jpg);
     background-size: 310px, 648px, 312px;
-    background-position:
-      60px 265px,
-      395px 64px,
-      calc(100% - 60px) 64px;
+    background-position: 60px 265px, 395px 64px, calc(100% - 60px) 64px;
     gap: 360px;
     flex-direction: row;
     justify-content: space-between;
   }
 
+  .hero-title {
+    padding-top: 0;
+  }
+
   .hero-wrap {
-    justify-content: flex-end;
-    margin-bottom: 100px;
+    justify-content: end;
   }
 
   .hero-description {
