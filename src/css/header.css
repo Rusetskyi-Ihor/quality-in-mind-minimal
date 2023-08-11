@@ -60,6 +60,7 @@
     height: 100%;
     z-index: 2;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .menu-header-navigation{
@@ -68,7 +69,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  padding-left: 16px;
+  padding-right: 16px;
 }
 .mobile-menu{
     gap: 17px;
