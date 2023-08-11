@@ -107,6 +107,9 @@ line-height: 1.5;
 
 @media screen and (min-width: 320px) {
 
+    .header-menu{
+        display: none;
+    }
     .header-logo{
         padding-top: 36px;
         padding-bottom: 36px;
@@ -127,7 +130,7 @@ line-height: 1.5;
 
 }
 
-@media screen and (min-width: 768px) and (max-width: 1158px) {
+@media screen and (min-width: 768px) {
     .header{
         background: var(--light-blue, #F7FAFF); 
     }
@@ -157,13 +160,12 @@ line-height: 1.5;
     }
     
 }
-@media screen and (max-width: 1157px) {
-    .header-menu{
-        display: none;
-    }
-}
 
-@media screen and (min-width: 1158px) {
+
+@media screen and (min-width: 1440px) {
+    .header-menu{
+        display: flex;
+    }
     .header{
      background: var(--light-blue, #F7FAFF); 
     }
