@@ -1,5 +1,6 @@
 @import url('./base.css');
 @import url('./reset.css');
+@import url('./variable.css');
 @import url('./components');
 /* NADYA */
 @import url('./header.css');
