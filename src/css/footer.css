@@ -15,7 +15,7 @@
 }
 
 .footer-logo {
-    padding: 6px 0;
+    align-items: center;
     margin-bottom: 42px;
 }
 
@@ -89,8 +89,9 @@
 
 .footer-socials-list {
     display: flex;
-   
-
+    position: absolute;
+    right: 16px;
+    
     gap: 16px;  
     
     
@@ -122,7 +123,7 @@
 @media screen and (min-width: 768px) {
     .footer-container {
       padding: 36px 32px;
-      
+      margin: 0;
            
     }
 
@@ -139,6 +140,7 @@
 
     .footer-logo {
         padding: 6px 0;
+        margin-bottom: 0;
         
     }
 
@@ -175,6 +177,10 @@
     }
 
     .footer-info-contacts {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        
        
     }
 
@@ -205,8 +211,4 @@
     .footer-logo-nav {
         display: flex;
     }
-
-    .footer-nav-list {
-        
-
-    }
+}
