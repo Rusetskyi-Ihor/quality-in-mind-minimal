@@ -1,0 +1,103 @@
+/* ------------ CLIENTS REVIEWS-DEXTOP ------------ */
+
+.clients_section{
+    display: block;
+    background-color:#F7FAFF;
+    min-width: 288px;
+    margin-bottom: 60px;
+    padding-top: 0px;
+    
+  }
+  .clients_header {
+    padding-top: 60px;
+    margin-bottom: 30px;
+    color: #0A224A;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 45px;
+    text-align: center;
+  }
+
+  .clients_container {
+    padding: 30px 30px 30px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .clients_blok_1 {
+    background-color: #FFFFFF;
+    border-radius: 2%;
+    
+    
+  }
+
+  .clients_blok_2 {
+    background-color: #FFFFFF;
+    border-radius: 2%;
+    
+  }
+
+  .clients_blok_3 {
+    background-color: #FFFFFF;
+    border-radius: 2%;
+    
+  }
+
+  .clients_blok_list{
+    list-style: none;
+  }
+
+    .clients_img {
+    
+    }
+
+  
+  .clients_blok_title{
+    color: #0A224A;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 45px;
+    padding: 4px;
+    display: inline-block;
+    margin-bottom: 4px;
+   
+  }
+
+.clients_blok_info {
+color:#0A224A; 
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+opacity:80%;
+margin-bottom: 16px;
+  }
+
+
+  
+  .clients_blok_test {
+color:#0A224A;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+  
+  }
+
+ 
+
+
+/* ------------ CLIENTS REVIEWS-MOBIL------------ */
+
+.clients_section{
+  display: block;
+  background-color:#F7FAFF;
+  
+  margin-bottom: 60px;
+  padding-top: 10px;
+
+height: 374px;
+
+width: 100%;
+}
