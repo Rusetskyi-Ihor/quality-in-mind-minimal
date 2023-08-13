@@ -1,10 +1,5 @@
 /* ------------ ABOUT-MOBILE ------------ */
 
-.about {
-  width: 100%;
-  height: 100%;
-}
-
 .about.container {
   padding: 0;
 }
@@ -22,7 +17,6 @@
   display: flex;
   align-items: center;
   gap: 20px;
-  position: relative;
   line-height: 1.5;
 }
 
@@ -64,7 +58,83 @@
 .about-trigger {
   font-size: 50px;
   text-transform: uppercase;
+  opacity: 0;
 }
+
+.about-picture {
+  transform: translateX(20px) scale(0.98);
+  opacity: 0;
+  transition: transform 1000ms ease-out, opacity 1000ms linear;
+}
+
+/*! ------------ ABOUT-ANIMATIONS ------------ */
+
+.element-show.trigger-one {
+  animation: animate-trigger 1000ms ease-in-out forwards;
+}
+
+.element-show.trigger-two {
+  animation: animate-trigger 1000ms ease-in-out 200ms forwards;
+}
+
+.element-show.trigger-three {
+  animation: animate-trigger 1000ms ease-in-out 400ms forwards;
+}
+
+.element-animation + .description-trigger-one {
+  transform: translateY(5px);
+  opacity: 0;
+  transition: all 500ms ease-in 200ms;
+}
+
+.element-show + .description-trigger-one {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.element-animation + .description-trigger-two {
+  transform: translateY(5px);
+  opacity: 0;
+  transition: all 500ms ease-in 400ms;
+}
+
+.element-show + .description-trigger-two {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.element-animation + .description-trigger-three {
+  transform: translateY(5px);
+  opacity: 0;
+  transition: all 500ms ease-in 600ms;
+}
+
+.element-show + .description-trigger-three {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+@keyframes animate-trigger {
+  0% {
+    transform: translateY(20px) rotate(5deg);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(-5px) rotate(-2deg);
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) rotate(0);
+  }
+}
+
+.about-picture.element-show {
+  transform: translateX(0) scale(1);
+  opacity: 1;
+}
+
+/*! ------------ ABOUT-ANIMATIONS ------------ */
 
 /* ------------ ABOUT-MOBILE ------------ */
 
@@ -72,6 +142,7 @@
 
 @media screen and (min-width: 768px) {
   .about.container {
+    max-width: 768px;
     padding: 0 32px;
   }
 

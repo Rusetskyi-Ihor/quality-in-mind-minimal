@@ -25,12 +25,14 @@
   line-height: 1.5;
   text-transform: uppercase;
   padding-top: 140px;
+  transform: translateX(-20px);
+  opacity: 0;
+  transition: transform 1000ms ease-out, opacity 1000ms linear;
 }
 
 .hero-wrap {
   display: flex;
   flex-direction: column;
-
   gap: 28px;
 }
 
@@ -45,12 +47,22 @@
   background-color: var(--color-blue-font);
   border: none;
   padding: 0;
+  transition: background-color 250ms ease-in-out;
 }
 
 .hero-link {
   color: var(--color-white);
   line-height: 1.5;
 }
+
+/*! ------------ HERO-ANIMATIONS ------------ */
+
+.hero-title.element-show {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+/*! ------------ HERO-ANIMATIONS ------------ */
 
 /* ------------ HERO-MOBILE ------------ */
 
@@ -135,6 +147,11 @@
 
   .hero-description {
     width: 312px;
+  }
+
+  .hero-btn:hover,
+  .hero-btn:hover {
+    background-color: #061835;
   }
 
   @media (min-resolution: 192dpi) {
