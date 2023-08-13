@@ -1,9 +1,7 @@
 /* ------------ CLIENTS-MOBILE ------------ */
 
-
 .clients-blok-list {
   display: flex;
-  
 }
 
 .clients-blok-item {
@@ -86,13 +84,13 @@
     border-radius: 2%;
     display: block;
   }
-  
+
   .clients-blok-item-2 {
     background-color: var(--color-white);
     border-radius: 2%;
     display: block;
   }
-  
+
   .clients-blok-item-3 {
     background-color: var(--color-white);
     border-radius: 2%;
@@ -103,7 +101,6 @@
     display: flex;
     gap: 16px;
   }
-  
 }
 
 @media screen and (min-width: 1440px) {
@@ -116,19 +113,19 @@
     display: flex;
     gap: 24px;
   }
-  
+
   .clients-blok-item {
     background-color: var(--color-white);
     border-radius: 2%;
     display: block;
   }
-  
+
   .clients-blok-item-2 {
     background-color: var(--color-white);
     border-radius: 2%;
     display: block;
   }
-  
+
   .clients-blok-item-3 {
     background-color: var(--color-white);
     border-radius: 2%;
