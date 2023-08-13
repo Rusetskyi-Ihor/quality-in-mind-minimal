@@ -1,68 +1,30 @@
-body {
-  margin: 0;
-  font-family: Montserrat;
- 
-  font-size: 15px;
-  color: 333;
-}
-:root {
-  --color-light-blue: #f7faff;
-  --color-blue-font: #0a224a;
-  --color-white: #fff;
-  --color-grey: #d9d9d9;
-  --color-dark-grey: #b6b6b6;
-}
 
-/* ------------ CLIENTS REVIEWS-MOBIL------------ */
-
-
-.clients_section {
-min-width: 288px;
-margin: 0 auto;
-padding: 0 16px;
-}
-
-@media screen and (min-width: 768px) {
-.clients_section  {
-  min-width: 768px;
-  padding: 0 32px;
-}
-
-.clients_blok_2 {
-  
-  display: none;
-}
-}
-
-@media screen and (min-width: 1440px) {
-.clients_section  {
-  min-width: 1320px;
-  padding: 0 60px;
-}
+.clients-section {
+  min-width: 288px;
+  margin: 0 auto;
+  padding: 0 16px;
 }
 
 
 
-.clients_section{
-  
-  background-color:#F7FAFF;
+.clients-section {
+  background-color: #f7faff;
   min-width: 288px;
   margin-bottom: 60px;
   padding-top: 0px;
-  
 }
 
-.clients_header {
+.clients-header {
   padding-top: 60px;
   margin-bottom: 30px;
-  color: #0A224A;
+  color: #0a224a;
   font-weight: 400;
   font-size: 32px;
   line-height: 45px;
   text-align: center;
 }
 
-.clients_container {
+.clients-container {
   padding: 30px 30px 30px 30px;
   display: flex;
   align-items: center;
@@ -70,66 +32,75 @@ padding: 0 16px;
   gap: 20px;
 }
 
-.clients_blok_1 {
-  background-color: #FFFFFF;
+.clients-blok-1 {
+  background-color: #ffffff;
   border-radius: 2%;
   display: block;
- 
- 
 }
 
-.clients_blok_2 {
-  background-color: #FFFFFF;
+.clients-blok-2 {
+  background-color: #ffffff;
   border-radius: 2%;
   display: block;
-  
-  
 }
 
-.clients_blok_3 {
-  background-color: #FFFFFF;
+.clients-blok-3 {
+  background-color: #ffffff;
   border-radius: 2%;
   display: block;
-  
 }
 
-.clients_blok_list{
+.clients-blok-list {
   list-style: none;
- 
-    
 }
 
-  .clients_img {
-  
-  }
+.clients-img {
+}
 
-
-.clients_blok_title {
-  color: #0A224A;
+.clients-blok-title {
+  color: #0a224a;
   font-size: 20px;
   font-weight: 700;
   line-height: 45px;
   padding: 4px;
   display: inline-block;
-  margin-bottom: 4px;   
-
+  margin-bottom: 4px;
 }
 
-.clients_blok_info {
-color:#0A224A; 
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0em;
-opacity:80%;
-
+.clients-blok-info {
+  color: #0a224a;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  opacity: 80%;
 }
 
-.clients_blok_text {
-color:#0A224A;
-font-size: 18px;
-font-weight: 400;
-line-height: 27px;
-margin: 0;
+.clients-blok-text {
+  color: #0a224a;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  margin: 0;
+}
 
+
+
+
+@media screen and (min-width: 768px) {
+  .clients-section {
+    min-width: 768px;
+    padding: 0 32px;
+  }
+
+  .clients-blok-2 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .clients-section {
+    min-width: 1320px;
+    padding: 0 60px;
+  }
 }
