@@ -39,15 +39,13 @@
   line-height: 1.5;
 }
 
-.hero-btn {
+.hero-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 224px;
   height: 48px;
   background-color: var(--color-blue-font);
-  border: none;
-  padding: 0;
-}
-
-.hero-link {
   color: var(--color-white);
   line-height: 1.5;
 }
@@ -60,7 +58,6 @@
   .hero.container {
     padding: 0 32px;
     max-width: 768px;
-    /* border: 1px solid red; */
   }
 
   .hero {
@@ -68,9 +65,7 @@
     background-image: url(../img/hero-images/tablet-bcg-1.jpg),
       url(../img/hero-images/tablet-bcg-2.jpg);
     background-size: 308px, 367px;
-    background-position:
-      32px 263px,
-      calc(100% - 32px) 57px;
+    background-position: 32px 263px, calc(100% - 32px) 57px;
     gap: 410px;
   }
 
@@ -96,11 +91,8 @@
     max-width: 312px;
   }
 
-  .hero-btn {
-    height: 50px;
-  }
-
   .hero-link {
+    height: 50px;
     font-size: 18px;
     line-height: 1.33;
   }
@@ -122,10 +114,7 @@
       url(../img/hero-images/desctop-bcg-2.jpg),
       url(../img/hero-images/desctop-bcg-3.jpg);
     background-size: 310px, 648px, 312px;
-    background-position:
-      60px 265px,
-      395px 64px,
-      calc(100% - 60px) 64px;
+    background-position: 60px 265px, 395px 64px, calc(100% - 60px) 64px;
     gap: 360px;
     flex-direction: row;
     justify-content: space-between;
