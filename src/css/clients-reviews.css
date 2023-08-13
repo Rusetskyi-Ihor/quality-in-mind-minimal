@@ -1,4 +1,9 @@
 
+
+.clients-blok-list{
+  display: flex;
+}
+
 .clients-section {
   min-width: 288px;
   margin: 0 auto;
@@ -12,6 +17,7 @@
   min-width: 288px;
   margin-bottom: 60px;
   padding-top: 0px;
+  
 }
 
 .clients-header {
@@ -32,14 +38,10 @@
   gap: 20px;
 }
 
-.clients-blok-1 {
-  background-color: #ffffff;
-  border-radius: 2%;
-  display: block;
-}
 
-.clients-blok-2 {
-  background-color: #ffffff;
+
+.clients-blok-item {
+  background-color:var(---color white) ;
   border-radius: 2%;
   display: block;
 }
@@ -50,12 +52,6 @@
   display: block;
 }
 
-.clients-blok-list {
-  list-style: none;
-}
-
-.clients-img {
-}
 
 .clients-blok-title {
   color: #0a224a;
