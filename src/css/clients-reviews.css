@@ -14,12 +14,14 @@
   background-color: var(--color-white);
   border-radius: 2%;
   display: none;
+  padding: 32px;
 }
 
 .clients-blok-item-3 {
   background-color: var(--color-white);
   border-radius: 2%;
   display: none;
+  padding: 32px;
 }
 
 .clients-section {
@@ -40,7 +42,10 @@
 }
 
 .clients-container {
-  padding: 30px 30px 30px 30px;
+  min-width: 343px;
+  padding: 30px;
+  margin: 0 auto;
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -48,30 +53,45 @@
 }
 
 .clients-blok-title {
-  color: #0a224a;
+  
   font-size: 20px;
   font-weight: 700;
   line-height: 45px;
-  padding: 4px;
-  display: inline-block;
-  margin-bottom: 4px;
+  text-transform: uppercase;
+  
 }
 
+
+.clients-info {
+  gap: 4px;
+}
 .clients-blok-info {
   color: #0a224a;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0em;
+
+  
   opacity: 80%;
 }
 
 .clients-blok-text {
-  color: #0a224a;
-  font-size: 18px;
+
+  font-size: 14px;
   font-weight: 400;
-  line-height: 27px;
+  line-height: 20px;
   margin: 0;
+}
+
+.clients-img {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+
+}
+
+.clients-blok-item{
+  padding: 32px;
 }
 
 @media screen and (min-width: 768px) {
@@ -131,4 +151,13 @@
     border-radius: 2%;
     display: block;
   }
+
+  .clients-blok-text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    margin: 0;
+  }
+
+
 }
