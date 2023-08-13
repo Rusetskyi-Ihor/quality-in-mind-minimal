@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+  <defs>
+    <symbol id="icon-menu-burger" viewBox="0 0 32 32">
+      <path fill="#e5e5e5" d="M0 0h32v32H0V0z" style="fill:var(--color1, #e5e5e5)"/>
+      <path fill="#fff" d="M-556.8-22.4H57.6V5156h-614.4V-22.4z" style="fill:var(--color2, #fff)"/>
+      <path fill="#f7faff" d="M-556.8-22.4H57.6v76h-614.4v-76z" style="fill:var(--color3, #f7faff)"/>
+      <path fill="none" stroke="#0a224a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4" d="M28 13.333H4M28 8H4M28 18.667H4M28 24H4" style="stroke:var(--color4, #0a224a)"/>
+    </symbol>
+    <symbol id="icon-check" viewBox="0 0 32 32">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3.692" d="M26.667 8 12 22.667 5.333 16"/>
+    </symbol>
+    <symbol id="icon-error" viewBox="0 0 32 32">
+      <path d="M14.4 20.8h3.2V24h-3.2v-3.2zm0-12.8h3.2v9.6h-3.2V8zm1.584-8C7.152 0 0 7.168 0 16s7.152 16 15.984 16C24.832 32 32 24.832 32 16S24.832 0 15.984 0zM16 28.8C8.928 28.8 3.2 23.072 3.2 16S8.928 3.2 16 3.2c7.072 0 12.8 5.728 12.8 12.8S23.072 28.8 16 28.8z"/>
+    </symbol>
+    <symbol id="icon-close-black" viewBox="0 0 32 32">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4" d="M24 8 8 24M8 8l16 16"/>
+    </symbol>
+  </defs>
+</svg>
