@@ -1,7 +1,8 @@
-/* ------------ CLIENTS-MOBILE ------------ */
+/*!------------ CLIENTS-MOBILE ------------ */
 
 .clients-blok-list {
   display: flex;
+
 }
 
 .clients-blok-item {
@@ -26,7 +27,6 @@
 
 .clients-section {
   background-color: var(--color-light-blue);
-
   margin-bottom: 60px;
   padding-top: 0px;
 }
@@ -39,13 +39,13 @@
   font-size: 32px;
   line-height: 45px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .clients-container {
-  min-width: 343px;
-  padding: 30px;
+  min-width: 375px;
+  padding: 16px;
   margin: 0 auto;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -53,48 +53,56 @@
 }
 
 .clients-blok-title {
-  
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
-  line-height: 45px;
+  line-height: 32px;
   text-transform: uppercase;
-  
 }
 
+.clients-images {
+  width: 48px;
+  height: 48px;
+}
 
 .clients-info {
   gap: 4px;
 }
 .clients-blok-info {
-  color: #0a224a;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
-  line-height: 24px;
-
-  
+  line-height: 18px;
   opacity: 80%;
 }
 
 .clients-blok-text {
-
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
   margin: 0;
+  margin-top: 24px;
 }
 
 .clients-img {
   display: flex;
   align-items: center;
   gap: 14px;
-
+ 
+  
 }
 
-.clients-blok-item{
+.clients-blok-item {
   padding: 32px;
 }
 
 @media screen and (min-width: 768px) {
+
+  .clients-container {
+    
+    padding: 32px;
+    
+    
+  }
+
   .clients-section {
     min-width: 768px;
     padding: 0 32px;
@@ -121,9 +129,46 @@
     display: flex;
     gap: 16px;
   }
+
+  .clients-images {
+    width: 58px;
+    height: 58px;
+  }
+
+  .clients-blok-info {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 80%;
+  }
+
+  .clients-blok-title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 45px;
+    text-transform: uppercase;
+  }
+
+  .clients-blok-text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    margin: 0;
+    margin-top: 18px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
+
+  .clients-container {
+    
+    padding: 60px;
+    
+
+    
+  }
+
+
   .clients-section {
     min-width: 1320px;
     padding: 0 60px;
@@ -157,7 +202,6 @@
     font-weight: 400;
     line-height: 27px;
     margin: 0;
+    margin-top: 16px;
   }
-
-
 }
