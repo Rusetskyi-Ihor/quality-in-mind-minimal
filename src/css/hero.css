@@ -41,16 +41,14 @@
   line-height: 1.5;
 }
 
-.hero-btn {
+.hero-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 224px;
   height: 48px;
   background-color: var(--color-blue-font);
-  border: none;
-  padding: 0;
   transition: background-color 250ms ease-in-out;
-}
-
-.hero-link {
   color: var(--color-white);
   line-height: 1.5;
 }
@@ -105,11 +103,8 @@
     max-width: 312px;
   }
 
-  .hero-btn {
-    height: 50px;
-  }
-
   .hero-link {
+    height: 50px;
     font-size: 18px;
     line-height: 1.33;
   }
