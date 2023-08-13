@@ -1,35 +1,30 @@
-
-
-.clients-blok-list{
+.clients-blok-list {
   display: flex;
-  
 }
 
-
 .clients-blok-item {
-  background-color:var(--color-white) ;
+  background-color: var(--color-white);
   border-radius: 2%;
   display: block;
 }
 
 .clients-blok-item-2 {
-  background-color:var(--color-white) ;
+  background-color: var(--color-white);
   border-radius: 2%;
   display: block;
 }
 
 .clients-blok-item-3 {
-  background-color:var(--color-white) ;
+  background-color: var(--color-white);
   border-radius: 2%;
   display: block;
 }
 
 .clients-section {
   background-color: var(--color-light-blue);
-  
+
   margin-bottom: 60px;
   padding-top: 0px;
-  
 }
 
 .clients-header {
@@ -49,13 +44,6 @@
   justify-content: center;
   gap: 20px;
 }
-
-
-
-
-
-
-
 
 .clients-blok-title {
   color: #0a224a;
@@ -84,16 +72,11 @@
   margin: 0;
 }
 
-
-
-
 @media screen and (min-width: 768px) {
   .clients-section {
     min-width: 768px;
     padding: 0 32px;
   }
-
-  
 }
 
 @media screen and (min-width: 1440px) {
