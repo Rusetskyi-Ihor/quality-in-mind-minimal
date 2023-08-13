@@ -1,5 +1,9 @@
+/* ------------ CLIENTS-MOBILE ------------ */
+
+
 .clients-blok-list {
   display: flex;
+  
 }
 
 .clients-blok-item {
@@ -11,13 +15,13 @@
 .clients-blok-item-2 {
   background-color: var(--color-white);
   border-radius: 2%;
-  display: block;
+  display: none;
 }
 
 .clients-blok-item-3 {
   background-color: var(--color-white);
   border-radius: 2%;
-  display: block;
+  display: none;
 }
 
 .clients-section {
@@ -77,11 +81,57 @@
     min-width: 768px;
     padding: 0 32px;
   }
+  .clients-blok-item {
+    background-color: var(--color-white);
+    border-radius: 2%;
+    display: block;
+  }
+  
+  .clients-blok-item-2 {
+    background-color: var(--color-white);
+    border-radius: 2%;
+    display: block;
+  }
+  
+  .clients-blok-item-3 {
+    background-color: var(--color-white);
+    border-radius: 2%;
+    display: none;
+  }
+
+  .clients-blok-list {
+    display: flex;
+    gap: 16px;
+  }
+  
 }
 
 @media screen and (min-width: 1440px) {
   .clients-section {
     min-width: 1320px;
     padding: 0 60px;
+  }
+
+  .clients-blok-list {
+    display: flex;
+    gap: 24px;
+  }
+  
+  .clients-blok-item {
+    background-color: var(--color-white);
+    border-radius: 2%;
+    display: block;
+  }
+  
+  .clients-blok-item-2 {
+    background-color: var(--color-white);
+    border-radius: 2%;
+    display: block;
+  }
+  
+  .clients-blok-item-3 {
+    background-color: var(--color-white);
+    border-radius: 2%;
+    display: block;
   }
 }
