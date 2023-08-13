@@ -48,6 +48,7 @@
   background-color: var(--color-blue-font);
   color: var(--color-white);
   line-height: 1.5;
+  transition: all 200ms ease-in-out;
 }
 
 /* ------------ HERO-MOBILE ------------ */
@@ -127,6 +128,10 @@
 
   .hero-description {
     width: 312px;
+  }
+
+  .hero-link:hover {
+    background-color: #061835;
   }
 
   @media (min-resolution: 192dpi) {
