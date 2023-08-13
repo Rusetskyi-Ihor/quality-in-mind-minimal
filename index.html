@@ -13,16 +13,118 @@
       referrerpolicy="no-referrer"
     />
     
-    <script type="module" crossorigin src="/quality-in-mind-minimal/assets/index-5de40ff9.js"></script>
-    <link rel="stylesheet" href="/quality-in-mind-minimal/assets/index-7e329e66.css">
+    <script type="module" crossorigin src="/quality-in-mind-minimal/assets/index-21128f66.js"></script>
+    <link rel="stylesheet" href="/quality-in-mind-minimal/assets/index-a29f6ce6.css">
   </head>
   <body>
     <!-- NADYA -->
     
+<!-- Nadya Timrova -->
+    <header class="header">
+      <div class="container header-container">
+        <nav class="header-navigation">
+            <a
+                class="header-logo"
+                href="./header.html"
+                aria-label="header"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+            <svg class="header-icon" height="16"> 
+                <use href="../img/icons.svg#icon-logo"></use>
+            </svg>
+            </a>
+
+          <ul class="header-menu">
+            <li class="header-menu-item">
+              <a class="header-menu-link" href="#about"
+                >About us</a
+              >
+            </li>
+            <li class="header-menu-item">
+              <a class="header-menu-link" href="#products"
+                >Our products</a
+              >
+            </li>
+            <li class="header-menu-item">
+              <a class="header-menu-link" href="#prices">Prices</a>
+            </li>
+            <li class="header-menu-item">
+              <a class="header-menu-link" href="#bestsellers">Bestsellers</a>
+            </li>
+            <li class="header-menu-item">
+              <a class="header-menu-link" href="#reviews">Reviews</a>
+            </li>
+            <li class="header-menu-item">
+              <a class="header-menu-link" href="#contacts">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+
+        
+        <button type="button" class="mobile-menu-btn" data-menu-open>
+          
+          <svg class="mobile-icon">
+            <use href="../img/icons.svg#icon-menu-burger"></use>
+          </svg>
+        </button>
+      </div>
+
+      <div class="mob-menu visually-hidden" data-menu>
+        <nav class="menu-header-navigation">
+          <a
+              class="header-logo"
+              href="./header.html"
+              aria-label="header"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+          <svg class="header-icon" height="16"> 
+              <use href="../img/icons.svg#icon-logo"></use>
+          </svg>
+          </a>
+        <button type="button" class="mob-close-button" data-menu-close>
+          <svg class="mob-icons-closed" >
+            <use href="../img/icons.svg#icon-close-black"></use>
+          </svg>
+        </button>
+        </nav>
+
+        <ul class="mobile-menu list">
+            <li class="mobile-menu-item">
+              <a class="mobile-menu-link" href="./about-us.html"
+                >About us</a
+              >
+            </li>
+            <li class="mobile-menu-item">
+              <a class="mobile-menu-link " href="./our-products.html"
+                >Our products</a
+              >
+            </li>
+            <li class="mobile-menu-item">
+              <a class="mobile-menu-link" href="./price.html">Prices</a>
+            </li>
+            <li class="mobile-menu-item">
+              <a class="mobile-menu-link" href="./bestsellers.html">Bestsellers</a>
+            </li>
+            <li class="mobile-menu-item">
+              <a class="mobile-menu-link" href="./clients-reviews.html">Reviews</a>
+            </li>
+            <li class="mobile-menu-item">
+              <a class="mobile-menu-link" href="./footer.html">Contacts</a>
+            </li>
+          </ul>
+
+        
+      </div>
+    </header>
+
     <main>
       <!-- VADIM -->
       <section class="hero container">
-  <h1 class="hero-title">Modern and minimalist furniture for you</h1>
+  <h1 class="hero-title element-animation">
+    Modern and minimalist furniture for you
+  </h1>
   <div class="hero-wrap">
     <p class="hero-description">
       Add a touch of elegance to your space with handcrafted furniture pieces
@@ -34,7 +136,68 @@
 </section>
 
       <!-- VADIM -->
-      
+      <section class="about container">
+  <div class="about-wrap">
+    <p class="about-title">About us</p>
+    <h2 class="about-subtitle">
+      Our сraftsmanship: сreating unique handmade furniture
+    </h2>
+    <p class="about-description">
+      Discover the inspiration behind our modern and minimalist designs, and see
+      how we bring them to life through our skilled craftsmanship.
+    </p>
+    <ul class="about-list">
+      <li class="about-list-item">
+        <p class="about-trigger element-animation trigger-one">5+</p>
+        <p class="about-description-trigger description-trigger-one">
+          Years of experience creating handcrafted furniture
+        </p>
+      </li>
+      <li class="about-list-item">
+        <p class="about-trigger element-animation trigger-two">100%</p>
+        <p class="about-description-trigger description-trigger-two">
+          Sustainably sourced materials used in all of our furniture
+        </p>
+      </li>
+      <li class="about-list-item">
+        <p class="about-trigger element-animation trigger-three">500+</p>
+        <p class="about-description-trigger description-trigger-three">
+          Unique furniture designs crafted by our skilled artisans
+        </p>
+      </li>
+    </ul>
+  </div>
+  <picture class="about-picture element-animation">
+    <source
+      srcset="
+        ../img/about-us-images/dectop.jpg    1x,
+        ../img/about-us-images/dectop@2x.jpg 2x
+      "
+      media="(min-width: 1440px)"
+    />
+    <source
+      srcset="
+        ../img/about-us-images/about-tablet.jpg    1x,
+        ../img/about-us-images/about-tablet@2x.jpg 2x
+      "
+      media="(min-width: 768px)"
+    />
+    <source
+      srcset="
+        ../img/about-us-images/about-mobile.jpg    1x,
+        ../img/about-us-images/about-mobile@2x.jpg 2x
+      "
+      media="(min-width: 320px)"
+    />
+    <img
+      src="../img/about-us-images/about-mobile.jpg"
+      alt="Interier"
+      class="about-image"
+      width="100%"
+    />
+  </picture>
+</section>
+
       <!-- IHOR -->
       <section id="prices" class="price">
   <div class="container">
