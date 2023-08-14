@@ -1,5 +1,8 @@
 .bestsellers {
   line-height: 1.5;
+}
+
+.bestsellers .container {
   max-width: 375px;
 }
 
@@ -76,12 +79,14 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .bestsellers.container {
-    padding: 0 172px;
+  .bestsellers .container {
+    border: 1px solid red;
   }
 
   .bestsellers-galery {
     gap: 24px;
+    max-width: 1096px;
+    margin: 0 auto;
   }
 
   .bestsellers-galery-item {
@@ -90,7 +95,11 @@
 
   .bestsellers-list {
     width: calc((100% - 24px) / 2);
-    gap: 24px;
+    gap: 20px;
+  }
+
+  .bestsellers-item {
+    width: calc((100% - 20px) / 2);
   }
 
   .bestsellers-scale:hover {
