@@ -2,12 +2,11 @@
 
 .about {
   background-color: var(--color-light-blue);
+  padding-top: 64px;
 }
 
 .about .container {
   max-width: 375px;
-  padding-top: 64px;
-  padding-bottom: 64px;
 }
 
 .about-wrap {
@@ -148,11 +147,7 @@
 @media screen and (min-width: 768px) {
   .about {
     background-color: var(--color-white);
-  }
-
-  .about .container {
     padding-top: 100px;
-    padding-bottom: 0;
   }
 
   .about-wrap {
