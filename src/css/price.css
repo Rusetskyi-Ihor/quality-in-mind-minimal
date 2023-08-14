@@ -16,7 +16,6 @@
 }
 
 .price-list {
-  /* position: relative; */
   display: flex;
   flex-direction: column;
   gap: 60px;
@@ -31,15 +30,20 @@
 
 .price-item::before {
   content: '';
-  /* position: absolute; */
-  min-width: 100%;
-  max-width: 343px;
+  width: 343px;
   height: 1px;
   background-color: var(--color-blue-font);
 }
 
-.try {
+.price-item::after {
+  content: '';
+  width: 343px;
+  height: 1px;
+  background-color: var(--color-blue-font);
+}
+
+.price-text {
   display: flex;
   justify-content: space-between;
-  min-width: 320px;
+  width: 343px;
 }
