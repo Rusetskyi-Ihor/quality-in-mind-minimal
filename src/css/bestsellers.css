@@ -79,10 +79,6 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .bestsellers .container {
-    border: 1px solid red;
-  }
-
   .bestsellers-galery {
     gap: 24px;
     max-width: 1096px;
