@@ -51,6 +51,7 @@
   transition: background-color 250ms ease-in-out;
   color: var(--color-white);
   line-height: 1.5;
+  transition: all 200ms ease-in-out;
 }
 
 /*! ------------ HERO-ANIMATIONS ------------ */
@@ -144,8 +145,8 @@
     width: 312px;
   }
 
-  .hero-btn:hover,
-  .hero-btn:hover {
+  .hero-link:hover,
+  .hero-link:focus {
     background-color: #061835;
   }
 
