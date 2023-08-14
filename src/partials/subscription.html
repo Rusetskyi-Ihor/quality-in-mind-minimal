@@ -1,6 +1,7 @@
-<section class="subscription">
+<!-- Nadya Timrova -->
+<section class="subscription container">
   <div class="subscription-div">
-    <div class="sub-form-div">
+    <div class="sub-form-div ">
     <h2 class="subscription-title">Newsletter</h2>
     <p class="subscription-subtitle">
       Every week we will send you new designs and information about sales.
@@ -22,7 +23,7 @@
 
       <div class="modal-field-e">
         <label for="input-email" class="input-label"></label>
-
+        <div class="wrapper">
         <input
           type="email"
           name="input-email"
@@ -30,7 +31,11 @@
           id="input-email"
           placeholder="Email"
           required
-        />
+          pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})">
+          <svg width="30" height="20" class="icon-error">
+            <use href="../img/icons.svg#icon-error"></use>
+          </svg>
+        </div>
       </div>
 
       <div class="modal-field-two">
@@ -87,25 +92,6 @@
   </div>
   </div>
 </section>
-<script>
-  const form = document.querySelector('form');
-  const emailInput = document.querySelector('#input-email');
 
-  // Проверяем состояние поля после загрузки страницы
-  window.addEventListener('load', function() {
-    if (!emailInput.validity.valid) {
-      emailInput.classList.add('invalid-input');
-    }
-  });
-
-  form.addEventListener('submit', function(event) {
-    if (!emailInput.validity.valid) {
-      emailInput.classList.add('invalid-input');
-      event.preventDefault(); // Остановка отправки формы
-    } else {
-      emailInput.classList.remove('invalid-input');
-    }
-  });
-</script>
 
 

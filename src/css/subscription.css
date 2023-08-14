@@ -88,14 +88,37 @@
   font-size: 16px;
   line-height: 1.5;
 }
-.invalid-input {
-    border: 2px solid #E74A3B;
-    color:#E74A3B;
-  }
+input:invalid:not(:placeholder-shown) {
+        border: 2px solid red;
+        outline: transparent;
+        color: red;
+}
+input:valid:not(:placeholder-shown) {
+        border: 2px solid green;
+        outline: transparent;
+        color: green;
+}
+.wrapper{
+  position: relative;
+}
+.icon-error {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  fill: transparent;
+}
+input:invalid:not(:placeholder-shown) + .icon-error {
+  fill: red;
+}
 
 @media screen and (min-width: 768px) {
   .subscription {
     padding: 100px 32px 100px 32px;
+    
+  }
+  .subscription.container{
+    max-width: 768px;
   }
   .subscription-title {
     color: var(--color-blue-font);
@@ -114,6 +137,9 @@
   }
   .privacy-link {
     font-size: 18px;
+  }
+  .icon-error {
+    right: 180px;
   }
 }
 @media screen and (min-width: 1440px) {
@@ -140,5 +166,8 @@
       }
       .subscription-div{
         display: flex;
+      }
+      .icon-error {
+        right: 20px;
       }
 }
