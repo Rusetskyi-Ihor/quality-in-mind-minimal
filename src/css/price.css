@@ -1,5 +1,5 @@
-.price {
-  padding: 94px 0;
+.price.container {
+  padding: 94px 16px;
 }
 
 .price-text {
@@ -16,7 +16,7 @@
 }
 
 .price-list {
-  position: relative;
+  /* position: relative; */
   display: flex;
   flex-direction: column;
   gap: 60px;
@@ -26,12 +26,20 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: column;
 }
-/* 
+
 .price-item::before {
   content: '';
-  position: absolute;
-  width: 343px;
+  /* position: absolute; */
+  min-width: 100%;
+  max-width: 343px;
   height: 1px;
   background-color: var(--color-blue-font);
-} */
+}
+
+.try {
+  display: flex;
+  justify-content: space-between;
+  min-width: 320px;
+}
