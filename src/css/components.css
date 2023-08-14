@@ -42,3 +42,7 @@ body {
   background-color: var(--color-white);
   color: var(--color-blue-font);
 }
+
+html {
+  scroll-behavior: smooth;
+}
