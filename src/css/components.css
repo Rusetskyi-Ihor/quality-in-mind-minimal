@@ -6,16 +6,43 @@
 
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 768px;
+    min-width: 768px;
     padding: 0 32px;
-    margin: 0 auto;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .container {
-    max-width: 1320px;
-    margin: 0 auto;
+    min-width: 1320px;
     padding: 0 60px;
   }
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  border: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0000);
+  overflow: hidden;
+  margin: -1px;
+  padding: 0;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  background-color: var(--color-white);
+  color: var(--color-blue-font);
+}
+
+html {
+  scroll-behavior: smooth;
 }
