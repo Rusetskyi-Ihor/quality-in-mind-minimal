@@ -21,7 +21,7 @@
   margin-bottom: 30px;
 }
 
-.button-sub {
+.button-subs {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -163,13 +163,13 @@ input:invalid:not(:placeholder-shown) + .icon-error {
   .icon-error {
     right: 180px;
   }
-  .button-sub{
+  .button-subs{
     margin-bottom: 64px;
     font-size: 18px;
     line-height: 1.33;
   }
-  .button-sub:hover,
-.button-sub:focus {
+  .button-subs:hover,
+.button-subs:focus {
   background-color: var( --color-actions);
 }
 }
@@ -189,7 +189,7 @@ input:invalid:not(:placeholder-shown) + .icon-error {
   img {
     max-width: 460px;
   }
-  .button-sub {
+  .button-subs {
     margin-bottom: 0px;
   }
   .picture-div {
