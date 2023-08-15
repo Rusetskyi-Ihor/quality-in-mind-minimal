@@ -1,5 +1,6 @@
 .subscription {
-  padding: 64px 16px;
+  padding-top: 64px;
+  padding-bottom: 64px;
 }
 
 .subscription-title {
@@ -132,7 +133,8 @@ input:invalid:not(:placeholder-shown) + .icon-error {
 }
 @media screen and (min-width: 768px) {
   .subscription {
-    padding: 100px 32px 100px 32px;
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
   .subscription-div.container {
     max-width: 768px;
@@ -165,7 +167,10 @@ input:invalid:not(:placeholder-shown) + .icon-error {
 }
 @media screen and (min-width: 1440px) {
   .subscription {
-    padding: 100px 172px 86px 172px;
+    padding-bottom: 86px;
+  }
+  .subscription-div.container {
+    max-width: 1440px;
   }
   .subscription-subtitle {
     margin-bottom: 20px;
