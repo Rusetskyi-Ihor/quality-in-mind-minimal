@@ -4,16 +4,22 @@
   padding: 0 16px;
 }
 
+@media screen and (min-width: 375px) {
+  .container {
+    max-width: 343px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .container {
-    min-width: 768px;
+    max-width: 768px;
     padding: 0 32px;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .container {
-    min-width: 1320px;
+    max-width: 1320px;
     padding: 0 60px;
   }
 }
@@ -41,4 +47,8 @@ body {
   font-family: Roboto, sans-serif;
   background-color: var(--color-white);
   color: var(--color-blue-font);
+}
+
+html {
+  scroll-behavior: smooth;
 }
