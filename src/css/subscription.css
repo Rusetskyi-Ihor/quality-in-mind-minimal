@@ -144,10 +144,16 @@ input:invalid:not(:placeholder-shown) + .icon-error {
     font-size: 18px;
     max-width: 536px;
   }
+  
   .sub-input {
     max-width: 536px;
     font-size: 18px;
   }
+
+  .sub-privacy-link {
+    font-family: 18px;
+  }
+
   .privacy-link {
     font-size: 18px;
   }
