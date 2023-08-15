@@ -1,11 +1,7 @@
 /* ------------ HERO-MOBILE ------------ */
 
 .hero {
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
   height: 717px;
-  width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url(../img/hero-images/mobile-bcg.jpg);
@@ -15,6 +11,12 @@
   .hero {
     background-image: url(../img/hero-images/mobile-bcg@2x.jpg);
   }
+}
+
+.hero .container {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
 }
 
 .hero-title {
@@ -68,13 +70,14 @@
 /*? ------------ HERO-TABLET ------------ */
 
 @media screen and (min-width: 768px) {
-  .hero.container {
-    padding: 0 32px;
-    max-width: 768px;
+  .hero {
+    background-image: none;
+    height: 100%;
   }
 
-  .hero {
-    height: 858px;
+  .hero .container {
+    background-repeat: no-repeat;
+    background-size: cover;
     background-image: url(../img/hero-images/tablet-bcg-1.jpg),
       url(../img/hero-images/tablet-bcg-2.jpg);
     background-size: 308px, 367px;
@@ -116,13 +119,9 @@
 /*TODO ------------ HERO-DESKTOP ------------ */
 
 @media screen and (min-width: 1440px) {
-  .hero.container {
-    padding: 64px 60px 100px 60px;
+  .hero .container {
+    height: 594px;
     max-width: 1440px;
-  }
-
-  .hero {
-    height: 694px;
     background-image: url(../img/hero-images/desctop-bcg-1.jpg),
       url(../img/hero-images/desctop-bcg-2.jpg),
       url(../img/hero-images/desctop-bcg-3.jpg);
@@ -131,10 +130,6 @@
     gap: 360px;
     flex-direction: row;
     justify-content: space-between;
-  }
-
-  .hero-title {
-    padding-top: 0;
   }
 
   .hero-wrap {
