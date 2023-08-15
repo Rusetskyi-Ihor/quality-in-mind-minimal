@@ -126,6 +126,12 @@ input:invalid:not(:placeholder-shown) + .icon-error {
   fill: var(--color-red);
 }
 
+@media screen and (min-width: 768px) and (max-width: 1339px) {
+  .subscription-form {
+    max-width: 536px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .subscription {
     padding-top: 100px;
@@ -148,8 +154,8 @@ input:invalid:not(:placeholder-shown) + .icon-error {
     font-size: 18px;
   }
 
-  .sub-privacy-link {
-    font-family: 18px;
+  .subs-privacy-link {
+    font-size: 18px;
   }
   .subs-field-two {
     margin-bottom: 30px;
