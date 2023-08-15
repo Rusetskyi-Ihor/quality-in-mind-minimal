@@ -52,7 +52,7 @@
     gap: 8px;
 }
 
-.footer-contacts {
+.footer-contacts-list {
     color: var(--color-white);
     font-size: 16px;
     font-style: normal;
@@ -154,7 +154,7 @@
         align-items: flex-start;
     }
 
-    .footer-contacts {
+    .footer-contacts-list {
         display: flex;
         flex-direction: column;
         gap: 24px;
