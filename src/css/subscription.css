@@ -165,6 +165,8 @@ input:invalid:not(:placeholder-shown) + .icon-error {
   }
   .button-sub{
     margin-bottom: 64px;
+    font-size: 18px;
+    line-height: 1.33;
   }
   .button-sub:hover,
 .button-sub:focus {
