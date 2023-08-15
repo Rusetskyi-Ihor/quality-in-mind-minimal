@@ -14,7 +14,7 @@
   margin-bottom: 20px;
 }
 
-.subscription-subtitle {
+.subscription-text {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -140,7 +140,7 @@ input:invalid:not(:placeholder-shown) + .icon-error {
     justify-content: left;
     margin-bottom: 20px;
   }
-  .subscription-subtitle {
+  .subscription-text {
     font-size: 18px;
     max-width: 536px;
   }
@@ -181,7 +181,7 @@ input:invalid:not(:placeholder-shown) + .icon-error {
     padding-bottom: 86px;
   }
  
-  .subscription-subtitle {
+  .subscription-text {
     margin-bottom: 20px;
     
   }
