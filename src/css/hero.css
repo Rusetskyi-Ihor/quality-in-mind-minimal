@@ -86,7 +86,7 @@
   }
 
   @media (min-resolution: 192dpi) {
-    .hero {
+    .hero .container {
       background-image: url(../img/hero-images/tablet-bcg-1@2x.jpg),
         url(../img/hero-images/tablet-bcg-2@2x.jpg);
     }
@@ -146,7 +146,7 @@
   }
 
   @media (min-resolution: 192dpi) {
-    .hero {
+    .hero .container {
       background-image: url(../img/hero-images/desctop-bcg-1@2x.jpg),
         url(../img/hero-images/desctop-bcg-2@2x.jpg),
         url(../img/hero-images/desctop-bcg-3@2x.jpg);
