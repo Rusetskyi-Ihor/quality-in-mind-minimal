@@ -1,4 +1,4 @@
-.footer-item {
+.footer {
    background-color: var(--color-blue-font); 
    position: relative;
    display: flex;
@@ -7,7 +7,7 @@
    
 }
 .footer-container {  
-    padding-top: 36px;
+   padding-top: 36px;
    padding-bottom: 16px;
 }
 
@@ -52,7 +52,7 @@
     gap: 8px;
 }
 
-.footer-contacts {
+.footer-contacts-list {
     color: var(--color-white);
     font-size: 16px;
     font-style: normal;
@@ -103,6 +103,7 @@
     .footer-container {
       padding: 36px 32px;
       margin: 0;
+      
            
     }
 
@@ -154,10 +155,11 @@
         align-items: flex-start;
     }
 
-    .footer-contacts {
+    .footer-contacts-list {
         display: flex;
         flex-direction: column;
         gap: 24px;
+        margin-bottom: 24px;
     }
 
    .footer-email {
@@ -168,10 +170,17 @@
     line-height: normal;
     font-weight: 400;
     letter-spacing: 0.1em;
+    margin-bottom: 64px;
+   }
+
+   .footer-text {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.07em;
    }
 }
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1440px) {
 
     .footer-logo-nav {
         gap: 209px;
@@ -192,5 +201,48 @@
         
     }
 
+    .footer-socials-icons:hover {
+        fill: var(--color-blue-font);
+    }
+
+    .footer-nav-item:hover {
+        color: var(--color-grey);
+    }
+
+    .footer-nav-item:focus {
+        color: var(--color-grey);
+    }
+
+    .footer-info-address:hover {
+        color: var(--color-grey);
+    }
+
+    .footer-info-address:focus {
+        color: var(--color-grey);
+    }
+
+    .footer-contacts-item:hover {
+        color: var(--color-grey);
+    }
+
+    .footer-contacts-item:focus {
+        color: var(--color-grey);
+    }
     
+    .socials-link:hover .footer-socials-icons {
+        fill: var(--color-grey);
+    }
+
+    .socials-link:focus .footer-socials-icons {
+        fill: var(--color-grey);
+    }
+
+    .footer-logo:hover .footer-logo-icon {
+        fill: var(--color-grey);
+    }
+
+    .footer-logo:focus .footer-logo-icon {
+        fill: var(--color-grey);
+    }
+
 }
