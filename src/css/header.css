@@ -229,6 +229,10 @@ line-height: 1.5;
     .mobile-icon{
         display: none;
     }
+    .header-menu-link:hover,
+    .header-menu-link:focus{
+        color: var(--color-action);
+    }
 
     .header-icon{
         width: 127px;
