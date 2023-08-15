@@ -68,7 +68,9 @@
 .about-picture {
   transform: translateX(20px) scale(0.98);
   opacity: 0;
-  transition: transform 1000ms ease-out, opacity 1000ms linear;
+  transition:
+    transform 1000ms ease-out,
+    opacity 1000ms linear;
 }
 
 /*! ------------ ABOUT-ANIMATIONS ------------ */
