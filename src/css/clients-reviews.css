@@ -1,207 +1,109 @@
 /*!------------ CLIENTS-MOBILE ------------ */
-
-.clients-blok-list {
-  display: flex;
-
-}
-
-.clients-blok-item {
-  background-color: var(--color-white);
-  border-radius: 2%;
-  display: block;
-}
-
-.clients-blok-item-2 {
-  background-color: var(--color-white);
-  border-radius: 2%;
-  display: none;
-  padding: 32px;
-}
-
-.clients-blok-item-3 {
-  background-color: var(--color-white);
-  border-radius: 2%;
-  display: none;
-  padding: 32px;
-}
-
 .clients-section {
   background-color: var(--color-light-blue);
-  margin-bottom: 60px;
-  padding-top: 0px;
+  padding: 36px 0;
 }
-
-.clients-header {
-  padding-top: 60px;
-  margin-bottom: 30px;
-  color: #0a224a;
+.clients-title {
+  font-size: 28px;
   font-weight: 400;
-  font-size: 32px;
-  line-height: 45px;
+  line-height: 1.5;
+  text-transform: uppercase;
   text-align: center;
-  text-transform: uppercase;
+  margin-bottom: 30px;
 }
-
-.clients-container {
-  min-width: 375px;
-  padding: 16px;
-  margin: 0 auto;
+.clients-list {
   display: flex;
-  align-items: center;
   justify-content: center;
-  gap: 20px;
 }
-
-.clients-blok-title {
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 32px;
-  text-transform: uppercase;
+.clients-item {
+  background-color: var(--color-white);
+  border-radius: 8px;
+  padding: 24px;
+  display: block;
+  max-width: 343px;
 }
-
+.client-second,
+.client-third {
+  display: none;
+}
 .clients-images {
   width: 48px;
   height: 48px;
 }
-
+.clients-subtitle {
+  color: var(--color-blue-font);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.8;
+  text-transform: uppercase;
+}
 .clients-info {
-  gap: 4px;
-}
-.clients-blok-info {
   font-size: 14px;
   font-weight: 400;
-  line-height: 18px;
-  opacity: 80%;
+  line-height: 1.3;
+  opacity: 0.8;
 }
-
-.clients-blok-text {
+.clients-text {
+  max-width: 296px;
   font-size: 14px;
-  font-weight: 400;
-  line-height: 20px;
-  margin: 0;
+  line-height: 1.43;
   margin-top: 24px;
 }
-
 .clients-img {
   display: flex;
   align-items: center;
   gap: 14px;
- 
-  
 }
-
-.clients-blok-item {
-  padding: 32px;
-}
-
 @media screen and (min-width: 768px) {
-
-  .clients-container {
-    
-    padding: 32px;
-    
-    
+  .clients-title {
+    font-size: 32px;
+    line-height: 1.41;
   }
-
-  .clients-section {
-    min-width: 768px;
-    padding: 0 32px;
-  }
-  .clients-blok-item {
-    background-color: var(--color-white);
-    border-radius: 2%;
+  .client-second {
     display: block;
   }
-
-  .clients-blok-item-2 {
-    background-color: var(--color-white);
-    border-radius: 2%;
-    display: block;
-  }
-
-  .clients-blok-item-3 {
-    background-color: var(--color-white);
-    border-radius: 2%;
-    display: none;
-  }
-
-  .clients-blok-list {
-    display: flex;
+  .clients-list {
     gap: 16px;
   }
-
+  .clients-item {
+    max-width: 344px;
+  }
   .clients-images {
     width: 58px;
     height: 58px;
   }
-
-  .clients-blok-info {
+  .clients-info {
     font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    opacity: 80%;
+    line-height: 1.5;
   }
-
-  .clients-blok-title {
+  .clients-subtitle {
     font-size: 20px;
-    font-weight: 700;
-    line-height: 45px;
-    text-transform: uppercase;
+    line-height: 2.25;
   }
-
-  .clients-blok-text {
+  .clients-text {
+    height: 192px;
     font-size: 18px;
-    font-weight: 400;
-    line-height: 27px;
-    margin: 0;
-    margin-top: 18px;
+    line-height: 1.5;
+    margin-top: 14px;
   }
 }
-
 @media screen and (min-width: 1440px) {
-
-  .clients-container {
-    
-    padding: 60px;
-    
-
-    
-  }
-
-
   .clients-section {
-    min-width: 1320px;
-    padding: 0 60px;
+    padding: 60px 0;
   }
-
-  .clients-blok-list {
-    display: flex;
+  .clients-list {
     gap: 24px;
   }
-
-  .clients-blok-item {
-    background-color: var(--color-white);
-    border-radius: 2%;
+  .clients-item {
+    padding: 32px;
+    max-width: 424px;
+  }
+  .client-third {
     display: block;
   }
-
-  .clients-blok-item-2 {
-    background-color: var(--color-white);
-    border-radius: 2%;
-    display: block;
-  }
-
-  .clients-blok-item-3 {
-    background-color: var(--color-white);
-    border-radius: 2%;
-    display: block;
-  }
-
-  .clients-blok-text {
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 27px;
-    margin: 0;
+  .clients-text {
+    max-width: 360px;
+    height: 161px;
     margin-top: 16px;
   }
 }
