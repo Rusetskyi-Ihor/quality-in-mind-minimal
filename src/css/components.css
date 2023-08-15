@@ -1,13 +1,7 @@
 .container {
-  min-width: 288px;
+  max-width: 375px;
   margin: 0 auto;
   padding: 0 16px;
-}
-
-@media screen and (min-width: 375px) {
-  .container {
-    max-width: 343px;
-  }
 }
 
 @media screen and (min-width: 768px) {
@@ -45,7 +39,6 @@
 
 body {
   font-family: Roboto, sans-serif;
-  background-color: var(--color-white);
   color: var(--color-blue-font);
 }
 
