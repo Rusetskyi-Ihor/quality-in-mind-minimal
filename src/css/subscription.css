@@ -174,6 +174,9 @@ input:invalid:not(:placeholder-shown) + .icon-error {
 }
 }
 @media screen and (min-width: 1440px) {
+  .subscription-title{
+    margin-bottom: 31px;
+  }
   .subscription {
     padding-bottom: 86px;
   }
@@ -195,10 +198,10 @@ input:invalid:not(:placeholder-shown) + .icon-error {
   .sub-form-div {
     display: flex;
     flex-direction: column;
-    margin-right: 100px;
   }
   .subscription-div {
     display: flex;
+    gap: 100px;
   }
   .icon-error {
     right: 20px;
