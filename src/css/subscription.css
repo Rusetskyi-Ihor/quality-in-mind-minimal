@@ -195,11 +195,11 @@ input:invalid:not(:placeholder-shown) + .icon-error {
   .picture-div {
     display: flex;
   }
-  .sub-form-div {
+  .subs-form {
     display: flex;
     flex-direction: column;
   }
-  .subscription-div {
+  .subscription-container {
     display: flex;
     gap: 100px;
   }
