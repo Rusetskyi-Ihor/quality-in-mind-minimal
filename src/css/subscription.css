@@ -144,7 +144,7 @@ input:invalid:not(:placeholder-shown) + .icon-error {
     font-size: 18px;
     max-width: 536px;
   }
-  
+
   .sub-input {
     max-width: 536px;
     font-size: 18px;
@@ -153,12 +153,18 @@ input:invalid:not(:placeholder-shown) + .icon-error {
   .sub-privacy-link {
     font-family: 18px;
   }
+  .modal-field-two {
+    margin-bottom: 30px;
+  }
 
   .privacy-link {
     font-size: 18px;
   }
   .icon-error {
     right: 180px;
+  }
+  .button-sub{
+    margin-bottom: 64px;
   }
   .button-sub:hover,
 .button-sub:focus {
