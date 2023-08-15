@@ -84,9 +84,9 @@
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  border: 1px solid var(--dark-grey, #B6B6B6);
+  border: 1px solid var(--dark-grey, #b6b6b6);
 }
-.check-icon{
+.check-icon {
   fill: transparent;
 }
 .subs-check:checked + .check-text span {
@@ -102,9 +102,9 @@
   text-decoration: none;
 }
 input:invalid:not(:placeholder-shown) {
-  border: 2px solid var( --color-red);
+  border: 2px solid var(--color-red);
   outline: transparent;
-  color: var( --color-red);
+  color: var(--color-red);
 }
 input:valid:not(:placeholder-shown) {
   border: 2px solid green;
@@ -122,19 +122,18 @@ input:valid:not(:placeholder-shown) {
   fill: transparent;
 }
 input:invalid:not(:placeholder-shown) + .icon-error {
-  fill:  var( --color-red);
+  fill: var(--color-red);
 }
-
 
 @media screen and (min-width: 768px) {
   .subscription {
     padding-top: 100px;
     padding-bottom: 100px;
   }
-  
+
   .subscription-title {
     font-size: 32px;
-    line-height: 1.41; 
+    line-height: 1.41;
     justify-content: left;
     margin-bottom: 20px;
   }
@@ -161,30 +160,29 @@ input:invalid:not(:placeholder-shown) + .icon-error {
   .icon-error {
     right: 180px;
   }
-  .button-subs{
+  .button-subs {
     margin-bottom: 64px;
     font-size: 18px;
     line-height: 1.33;
   }
   .button-subs:hover,
-.button-subs:focus {
-  background-color: var( --color-actions);
-}
+  .button-subs:focus {
+    background-color: var(--color-actions);
+  }
 }
 @media screen and (min-width: 1440px) {
-  .subscription-title{
+  .subscription-title {
     margin-bottom: 31px;
   }
   .subscription {
     padding-bottom: 86px;
   }
- 
+
   .subscription-text {
     margin-bottom: 20px;
-    
   }
 
-  img {
+  .subs-img {
     max-width: 460px;
   }
   .button-subs {
@@ -200,6 +198,7 @@ input:invalid:not(:placeholder-shown) + .icon-error {
   .subscription-container {
     display: flex;
     gap: 100px;
+    justify-content: center;
   }
   .icon-error {
     right: 20px;

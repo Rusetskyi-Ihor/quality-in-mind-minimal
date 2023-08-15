@@ -5,10 +5,6 @@
   padding-top: 64px;
 }
 
-.about .container {
-  max-width: 375px;
-}
-
 .about-wrap {
   color: var(--color-blue-font);
   display: flex;
