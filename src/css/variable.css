@@ -7,4 +7,9 @@
   --color-bcg-gray: #7a7a7a;
   --color-actions: #061835;
   --color-red: #e74a3b;
+  --color-green: green;
+
+  --our-transition-duration: 200ms;
+  --our-transition-time-function: ease-in-out;
+  --our-transition-delay: 200ms;
 }

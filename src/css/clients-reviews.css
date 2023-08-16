@@ -1,0 +1,139 @@
+/*!------------ CLIENTS-MOBILE ------------ */
+.clients-section {
+  background-color: var(--color-light-blue);
+  padding: 36px 0;
+}
+.clients-title {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.clients-list {
+  display: flex;
+  justify-content: center;
+}
+.clients-item {
+  background-color: var(--color-white);
+  border-radius: 8px;
+  padding: 24px;
+  display: block;
+  max-width: 343px;
+}
+.client-second,
+.client-third {
+  display: none;
+}
+.clients-images {
+  width: 48px;
+  height: 48px;
+}
+.clients-subtitle {
+  color: var(--color-blue-font);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.8;
+  text-transform: uppercase;
+}
+.clients-info {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.3;
+  opacity: 0.8;
+}
+.clients-text {
+  max-width: 296px;
+  font-size: 14px;
+  line-height: 1.43;
+  margin-top: 24px;
+}
+.clients-img {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+/*TODO ---------- CLIENTS-ANIMATION ---------- */
+
+.clients-list .element-animation {
+  opacity: 0;
+  transition: all 1000ms ease-out;
+}
+
+.clients-list .element-show {
+  opacity: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .clients-title {
+    font-size: 32px;
+    line-height: 1.41;
+  }
+  .client-second {
+    display: block;
+  }
+  .clients-list {
+    gap: 16px;
+  }
+  .clients-item {
+    max-width: 344px;
+  }
+  .clients-images {
+    width: 58px;
+    height: 58px;
+  }
+  .clients-info {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .clients-subtitle {
+    font-size: 20px;
+    line-height: 2.25;
+  }
+  .clients-text {
+    height: 192px;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 14px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .clients-section {
+    padding: 60px 0;
+  }
+  .clients-list {
+    gap: 24px;
+  }
+  .clients-item {
+    padding: 32px;
+    max-width: 424px;
+  }
+  .client-third {
+    display: block;
+  }
+  .clients-text {
+    max-width: 360px;
+    height: 161px;
+    margin-top: 16px;
+  }
+
+  /*TODO ---------- CLIENTS-DESKTOP-ANIMATION ---------- */
+
+  .clients-list .element-animation:nth-child(1) {
+    transform: translateX(-60px);
+  }
+
+  .clients-list .element-show:nth-child(1) {
+    transform: translateX(0);
+  }
+
+  .clients-list .element-animation:nth-child(3) {
+    transform: translateX(60px);
+  }
+
+  .clients-list .element-show:nth-child(3) {
+    transform: translateX(0);
+  }
+}
