@@ -121,10 +121,20 @@ address {
     order: -1;
     margin: -148px 0 0;
   }
+
+  .footer-contact-link {
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+  }
+
   .footer-contact-mail {
     display: flex;
     margin: 24px 0 64px;
     font-size: 19px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+
   }
   .footer-contacts .footer-contacts-list {
     margin-top: 64px;
@@ -137,6 +147,8 @@ address {
   }
   .footer-address {
     font-size: 19px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
   }
   .footer-address-item:not(:last-child) {
     margin-bottom: 24px;
