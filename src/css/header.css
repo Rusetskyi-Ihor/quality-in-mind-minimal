@@ -1,3 +1,5 @@
+/**---------- HEADER ------------*/
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -195,7 +197,7 @@
   }
 }
 
-/*!------------ COMPUTER -------------- */
+/*!------------ DESKTOP -------------- */
 
 @media screen and (min-width: 1440px) {
   .header-logo {

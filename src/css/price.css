@@ -1,3 +1,5 @@
+/**---------- PRICE ------------*/
+
 .price {
   padding-top: 64px;
   padding-bottom: 64px;
@@ -45,6 +47,8 @@
   bottom: 0;
 }
 
+/**---------- TABLET ------------*/
+
 @media (min-width: 768px) {
   .price {
     padding-top: 100px;
@@ -60,6 +64,9 @@
     font-size: 18px;
   }
 }
+
+/**---------- DESKTOP ------------*/
+
 @media (min-width: 1440px) {
   .container-price {
     max-width: 1216px;

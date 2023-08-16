@@ -1,3 +1,5 @@
+/**---------- OUR PRODUCT ------------*/
+
 .product-subtitle {
   font-size: 28px;
   font-weight: 400;
@@ -44,6 +46,8 @@
   transition-delay: 900ms;
 }
 
+/**---------- TABLET ------------*/
+
 @media screen and (min-width: 768px) {
   .product-subtitle {
     font-size: 32px;
@@ -64,6 +68,8 @@
     margin-top: 15px;
   }
 }
+
+/**---------- DESKTOP ------------*/
 
 @media screen and (min-width: 1440px) {
   .product-item:nth-child(3),

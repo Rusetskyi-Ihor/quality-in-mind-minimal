@@ -1,3 +1,5 @@
+/**---------- BESTSELLERS ------------*/
+
 .bestsellers {
   line-height: 1.5;
   padding-top: 64px;
@@ -45,6 +47,8 @@
   display: none;
 }
 
+/**---------- TABLET ------------*/
+
 @media screen and (min-width: 768px) {
   .bestsellers {
     font-size: 18px;
@@ -83,6 +87,8 @@
     font-size: 18px;
   }
 }
+
+/**---------- DESKTOP ------------*/
 
 @media screen and (min-width: 1440px) {
   .bestsellers-galery {

@@ -1,79 +1,98 @@
+/**---------- FOOTER ------------*/
+
 .footer {
   background-color: var(--color-blue-font);
   padding-top: 36px;
   padding-bottom: 16px;
 }
+
 .logo-nav-social {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
 .footer-logo-nav {
   display: flex;
   flex-direction: column;
 }
+
 .footer-logo {
   padding-top: 6px;
 }
+
 .footer-logo-icon {
   display: block;
   fill: var(--color-white);
   width: 100px;
   height: 16px;
 }
+
 .footer-nav-list {
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
+
 .footer-nav-link {
   color: var(--color-white);
   font-size: 16px;
   line-height: 1.5;
 }
+
 .footer-social-list {
   display: flex;
   gap: 16px;
 }
+
 .footer-social-icon {
   display: block;
   fill: var(--color-white);
   width: 28px;
   height: 28px;
 }
+
 .footer-contacts {
   margin: 36px 0 64px;
 }
+
 .footer-address {
   color: var(--color-white);
   font-size: 16px;
   letter-spacing: 0.01em;
   line-height: 1.2;
 }
+
 .footer-address-item:not(:last-child) {
   margin-bottom: 8px;
 }
+
 address {
   font-style: normal;
 }
+
 .footer-contacts .footer-contacts-list {
   margin-top: 35px;
 }
+
 .footer-contact-item:not(:last-child) {
   margin-bottom: 8px;
 }
+
 .footer-contact-link {
   color: var(--color-white);
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 0.01em;
 }
+
 .footer-contact-mail {
   display: none;
   color: var(--color-white);
   font-size: 16px;
   letter-spacing: 0.01em;
 }
+
 .footer-terms-policy {
   color: var(--color-white);
   text-align: center;
@@ -82,41 +101,49 @@ address {
   letter-spacing: 0.099em;
   opacity: 0.6;
 }
+
 .footer-policy-link {
   text-decoration-line: underline;
 }
 
-/** ----------MEDIA TABLET------------ */
+/** ----------TABLET------------ */
 @media screen and (max-width: 768px) {
   .footer-logo {
     margin-bottom: 42px;
   }
 }
+
 @media screen and (min-width: 768px) {
   .footer {
     padding-bottom: 36px;
   }
+
   .footer-logo-nav {
     flex-direction: row;
     flex: 1;
     align-items: baseline;
   }
+
   .footer-logo-icon {
     width: 127px;
   }
+
   .footer-nav {
     margin: 8px 0 0 249px;
   }
+
   .footer-nav-list {
     gap: 16px;
   }
   .footer-nav-link {
     font-size: 18px;
   }
+
   .footer-social-icon {
     width: 40px;
     height: 40px;
   }
+
   .footer-contacts {
     order: -1;
     margin: -148px 0 0;
@@ -134,25 +161,30 @@ address {
     font-size: 19px;
     font-weight: 400;
     letter-spacing: 0.01em;
-
   }
+
   .footer-contacts .footer-contacts-list {
     margin-top: 64px;
   }
+
   .footer-contact-item:not(:last-child) {
     margin-bottom: 24px;
   }
+
   .footer-contact-link {
     font-size: 19px;
   }
+
   .footer-address {
     font-size: 19px;
     font-weight: 400;
     letter-spacing: 0.01em;
   }
+
   .footer-address-item:not(:last-child) {
     margin-bottom: 24px;
   }
+
   .footer-terms-policy,
   .footer-terms-policy a {
     font-size: 16px;
@@ -160,54 +192,68 @@ address {
     letter-spacing: 0.074em;
   }
 }
-/** MEDIA DESKTOP */
+
+/**---------- DESKTOP
+ ------------*/
+
 @media screen and (min-width: 1440px) {
   .footer-logo-nav {
     margin-bottom: 32px;
   }
+
   .footer-nav {
     margin-left: 217px;
   }
+
   .footer-nav-list {
     flex-direction: row;
     gap: 30px;
   }
+
   .footer-contacts {
     display: flex;
     margin: 0;
     flex-wrap: wrap;
     flex-direction: row;
   }
+
   .footer-address {
     display: flex;
   }
+
   .footer-contacts .footer-contacts-list {
     margin: 0 82px 0 87px;
   }
+
   .footer-contact-mail {
     margin: 0;
   }
+
   .footer-terms-policy {
     margin-top: 35px;
   }
+
   .footer-social-list {
     gap: 30px;
   }
+
   .link {
     transition: opacity var(--our-transition-duration)
       var(--our-transition-time-function);
   }
+
   .link:hover,
   .link:focus {
     opacity: 0.7;
   }
+
   .footer-policy-link {
     transition: opacity var(--our-transition-duration)
       var(--our-transition-time-function);
   }
+
   .footer-policy-link:hover,
   .footer-policy-link:focus {
     opacity: 0.7;
   }
-
 }
