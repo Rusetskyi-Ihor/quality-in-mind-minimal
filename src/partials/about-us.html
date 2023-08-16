@@ -1,5 +1,5 @@
 <section class="about" id="about">
-  <div class="container">
+  <div class="container about-container">
     <div class="about-wrap">
       <p class="about-title">About us</p>
       <h2 class="about-subtitle">
@@ -30,38 +30,39 @@
         </li>
       </ul>
     </div>
-
-    <picture class="about-picture element-animation">
-      <source
-        srcset="
-          ./img/about-us-images/dectop.jpg    1x,
-          ./img/about-us-images/dectop@2x.jpg 2x
-        "
-        media="(min-width: 1440px)"
-        type="image/jpeg"
-      />
-      <source
-        srcset="
-          ./img/about-us-images/about-tablet.jpg    1x,
-          ./img/about-us-images/about-tablet@2x.jpg 2x
-        "
-        media="(min-width: 768px)"
-        type="image/jpeg"
-      />
-      <source
-        srcset="
-          ./img/about-us-images/about-mobile.jpg    1x,
-          ./img/about-us-images/about-mobile@2x.jpg 2x
-        "
-        media="(min-width: 320px)"
-        type="image/jpeg"
-      />
-      <img
-        src="../img/about-us-images/about-mobile.jpg"
-        alt="Interior"
-        class="about-image"
-        width="100%"
-      />
-    </picture>
+    <div class="about-img-wrap">
+      <picture class="about-picture element-animation">
+        <source
+          srcset="
+            ./img/about-us-images/dectop.jpg    1x,
+            ./img/about-us-images/dectop@2x.jpg 2x
+          "
+          media="(min-width: 1440px)"
+          type="image/jpeg"
+        />
+        <source
+          srcset="
+            ./img/about-us-images/about-tablet.jpg    1x,
+            ./img/about-us-images/about-tablet@2x.jpg 2x
+          "
+          media="(min-width: 768px)"
+          type="image/jpeg"
+        />
+        <source
+          srcset="
+            ./img/about-us-images/about-mobile.jpg    1x,
+            ./img/about-us-images/about-mobile@2x.jpg 2x
+          "
+          media="(min-width: 320px)"
+          type="image/jpeg"
+        />
+        <img
+          src="../img/about-us-images/about-mobile.jpg"
+          alt="Interior"
+          class="about-image"
+          width="100%"
+        />
+      </picture>
+    </div>
   </div>
 </section>

@@ -9,7 +9,7 @@
   --color-red: #e74a3b;
   --color-green: green;
 
-  --our-transition-duration: 250ms;
+  --our-transition-duration: 200ms;
   --our-transition-time-function: ease-in-out;
-  --our-transition-delay: 250ms;
+  --our-transition-delay: 200ms;
 }
