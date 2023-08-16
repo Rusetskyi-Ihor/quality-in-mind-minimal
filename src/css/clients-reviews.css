@@ -54,6 +54,18 @@
   align-items: center;
   gap: 14px;
 }
+
+/*TODO ---------- CLIENTS-ANIMATION ---------- */
+
+.clients-list .element-animation {
+  opacity: 0;
+  transition: all 1000ms ease-out;
+}
+
+.clients-list .element-show {
+  opacity: 1;
+}
+
 @media screen and (min-width: 768px) {
   .clients-title {
     font-size: 32px;
@@ -105,5 +117,23 @@
     max-width: 360px;
     height: 161px;
     margin-top: 16px;
+  }
+
+  /*TODO ---------- CLIENTS-DESKTOP-ANIMATION ---------- */
+
+  .clients-list .element-animation:nth-child(1) {
+    transform: translateX(-60px);
+  }
+
+  .clients-list .element-show:nth-child(1) {
+    transform: translateX(0);
+  }
+
+  .clients-list .element-animation:nth-child(3) {
+    transform: translateX(60px);
+  }
+
+  .clients-list .element-show:nth-child(3) {
+    transform: translateX(0);
   }
 }
