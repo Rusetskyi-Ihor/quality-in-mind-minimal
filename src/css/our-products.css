@@ -19,6 +19,31 @@
   margin-top: 16px;
 }
 
+/*TODO --------------- PRODUCT-ANIMATIONS --------------- */
+
+.product-list .element-animation {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: all 600ms ease-in-out;
+}
+
+.product-list .element-show {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.product-list .element-animation:nth-child(2) {
+  transition-delay: 300ms;
+}
+
+.product-list .element-animation:nth-child(3) {
+  transition-delay: 600ms;
+}
+
+.product-list .element-animation:nth-child(4) {
+  transition-delay: 900ms;
+}
+
 @media screen and (min-width: 768px) {
   .product-subtitle {
     font-size: 32px;
