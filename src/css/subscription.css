@@ -172,10 +172,6 @@ input:invalid:not(:placeholder-shown) + .icon-error {
     font-size: 18px;
     line-height: 1.33;
   }
-  .button-subs:hover,
-  .button-subs:focus {
-    background-color: var(--color-actions);
-  }
 }
 @media screen and (min-width: 1440px) {
   .subscription-title {
@@ -209,5 +205,13 @@ input:invalid:not(:placeholder-shown) + .icon-error {
   }
   .icon-error {
     right: 20px;
+  }
+  .button-subs:hover,
+  .button-subs:focus {
+    -webkit-animation: shake-horizontal 0.8s
+      cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+    animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.03, 0.515, 0.955)
+      both;
+    background-color: var(--color-actions);
   }
 }

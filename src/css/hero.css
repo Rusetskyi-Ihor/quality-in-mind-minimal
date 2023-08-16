@@ -29,7 +29,9 @@
   padding-top: 140px;
   transform: translateX(-20px);
   opacity: 0;
-  transition: transform 1000ms ease-out, opacity 1000ms linear;
+  transition:
+    transform 1000ms ease-out,
+    opacity 1000ms linear;
 }
 
 .hero-wrap {
@@ -81,7 +83,9 @@
     background-image: url(../img/hero-images/tablet-bcg-1.jpg),
       url(../img/hero-images/tablet-bcg-2.jpg);
     background-size: 308px, 367px;
-    background-position: 32px 263px, calc(100% - 32px) 57px;
+    background-position:
+      32px 263px,
+      calc(100% - 32px) 57px;
     gap: 410px;
   }
 
@@ -126,7 +130,10 @@
       url(../img/hero-images/desctop-bcg-2.jpg),
       url(../img/hero-images/desctop-bcg-3.jpg);
     background-size: 310px, 648px, 312px;
-    background-position: 60px 265px, 395px 64px, calc(100% - 60px) 64px;
+    background-position:
+      60px 265px,
+      395px 64px,
+      calc(100% - 60px) 64px;
     gap: 360px;
     flex-direction: row;
     justify-content: space-between;
@@ -142,6 +149,10 @@
 
   .hero-link:hover,
   .hero-link:focus {
+    -webkit-animation: shake-horizontal 0.8s
+      cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+    animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.03, 0.515, 0.955)
+      both;
     background-color: #061835;
   }
 
@@ -155,3 +166,60 @@
 }
 
 /*TODO ------------ HERO-DESKTOP ------------ */
+
+@-webkit-keyframes shake-horizontal {
+  0%,
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  10%,
+  30%,
+  50%,
+  70% {
+    -webkit-transform: translateX(-10px);
+    transform: translateX(-10px);
+  }
+  20%,
+  40%,
+  60% {
+    -webkit-transform: translateX(10px);
+    transform: translateX(10px);
+  }
+  80% {
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px);
+  }
+  90% {
+    -webkit-transform: translateX(-8px);
+    transform: translateX(-8px);
+  }
+}
+@keyframes shake-horizontal {
+  0%,
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  10%,
+  30%,
+  50%,
+  70% {
+    -webkit-transform: translateX(-10px);
+    transform: translateX(-10px);
+  }
+  20%,
+  40%,
+  60% {
+    -webkit-transform: translateX(10px);
+    transform: translateX(10px);
+  }
+  80% {
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px);
+  }
+  90% {
+    -webkit-transform: translateX(-8px);
+    transform: translateX(-8px);
+  }
+}
